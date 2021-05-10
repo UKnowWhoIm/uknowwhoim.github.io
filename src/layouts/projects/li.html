@@ -1,0 +1,7 @@
+<li class="project-list-item">
+  <a href="{{ .Params.externalLink | default .RelPermalink }}" class="title project-list-title" >{{ .Title }}</a>
+  <p class="project-desc">
+    <i>{{ .Page.Params.Desc }}</i><br/><br/>
+    {{ partial "badge.html" .Page.Params.Badge }}
+  </p>
+</li>

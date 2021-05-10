@@ -12,6 +12,7 @@ keywords = "developer,personal"
 colorScheme = "dark"
 favicon_32 = "/img/favicon-32x32.png"
 favicon_16 = "/img/favicon-16x16.png"
+customCSS = ["css/extra.css"]
 
 hideFooter = false
 hideCredits = false
