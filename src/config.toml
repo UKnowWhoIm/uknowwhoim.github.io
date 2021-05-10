@@ -4,19 +4,42 @@ baseURL = ""
 theme = "hugo-coder"
 
 [params]
-  author = "UKnowWhoIm"
-  info = "Web Developer"
-  description = "My personal website"
-  keywords = "developer,personal"
-  avatarurl = "images/avatar.jpg"
-  colorScheme = "dark"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+author = "UKnowWhoIm"
+info = "Web Developer"
+description = "My personal website"
+keywords = "developer,personal"
+#avatarurl = "images/avatar.jpg"
+colorScheme = "dark"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
 
-  footercontent = "Enter a text here."
-  hideFooter = false
-  hideCredits = false
-  hideCopyright = false
-  since = 2019
+hideFooter = false
+hideCredits = false
+hideCopyright = false
 
-  enableTwemoji = true
+[[params.social]]
+name = "Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/UKnowWhoIm/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/uknowwhoim/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Work Experience"
+weight = 3
+url = "work-experience/"
