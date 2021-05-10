@@ -1,0 +1,22 @@
+languageCode = "en-us"
+baseURL = ""
+
+theme = "hugo-coder"
+
+[params]
+  author = "UKnowWhoIm"
+  info = "Web Developer"
+  description = "My personal website"
+  keywords = "developer,personal"
+  avatarurl = "images/avatar.jpg"
+  colorScheme = "dark"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
+
+  enableTwemoji = true
