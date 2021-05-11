@@ -1,10 +1,10 @@
 languageCode = "en-us"
 baseURL = ""
-
+title = "UKnowWhoIm"
 theme = "hugo-coder"
 
 [params]
-author = "UKnowWhoIm"
+author = "Sidharth Ajithkumar"
 info = "Web Developer"
 description = "My personal website"
 keywords = "developer,personal"
