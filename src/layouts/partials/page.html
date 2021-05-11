@@ -1,0 +1,22 @@
+<section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ .Title }}
+        </a>
+      </h1>
+    </header>
+    {{ .Content }}
+  </article>
+  <div style="text-align: center;">
+    <a class="project-link" target="_blank" href='https://github.com/{{ .Page.Params.RepoOwner| default "UKnowWhoIm" }}/{{ .Page.Params.Repo}}'>
+      <i class="fa fa-github" style="font-size: 72px"></i>
+    </a>
+    {{ if .Page.Params.WebsiteLink }}
+      <a class="project-link" target="_blank" href='{{ .Page.Params.WebsiteLink}}'>
+        <i class="fas fa-globe" style="font-size: 72px"></i>
+      </a>
+    {{ end }}
+  </div>
+</section>

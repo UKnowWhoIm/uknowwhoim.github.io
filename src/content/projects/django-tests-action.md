@@ -5,6 +5,7 @@ draft: false
 badge: "docker"
 githubLink: "https://github.com/UKnowWhoIm/django-test-action"
 websiteLink: "https://github.com/marketplace/actions/django-test-ci"
+repo: "django-test-action"
 ---
 
 This is a github action built using Docker to run your django tests to ensure that you don't break existing stuff while making new changes

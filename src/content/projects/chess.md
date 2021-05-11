@@ -4,6 +4,7 @@ desc: "A multiplayer chess engine written in Node"
 draft: false
 badge: "nodejs"
 githubLink: "https://github.com/UKnowWhoIm/chess-v2"
+repo: "chess-v2"
 ---
 
 This is an online multiplayer chess game implemented using express.js, websockets, MongoDB and JS at its core.

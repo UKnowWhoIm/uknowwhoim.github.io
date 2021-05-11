@@ -5,6 +5,7 @@ draft: false
 badge: "django"
 githubLink: "https://github.com/UKnowWhoIm/student-mail-benefits"
 websiteLink: "https://student-benefits.herokuapp.com"
+repo: "student-mail-benefits"
 ---
 
 This is an Open API containing many student discounts and offers. This was made using a mix of vanilla django and DRF.

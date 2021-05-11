@@ -4,6 +4,7 @@ desc: "A simple bridge to recieve whatsapp messages in telegram"
 draft: false
 badge: "nodejs"
 githubLink: "https://github.com/UKnowWhoIm/whatsapp-telegram-bridge"
+repo: "whatsapp-telegram-bridge"
 ---
 
 Go to [TLDR](#tldr)

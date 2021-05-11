@@ -4,6 +4,7 @@ desc: "A beginner level chess AI written in C++"
 draft: false
 badge: "c++"
 githubLink: "https://github.com/UKnowWhoIm/ChessBot"
+repo: "ChessBot"
 ---
 
 Go to [TLDR](#tldr)
