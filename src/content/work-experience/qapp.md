@@ -18,3 +18,5 @@ QAPP was developed during the start of the COVID19 pandemic. We were just 2 deve
 ### What did we build?
 
 A queue management system for effective social distancing using flutter and DRF.
+
+[<img title="View On Playstore" src="/images/playstore.png" height="100px" width="100px"/>](https://play.google.com/store/apps/details?id=how.qapp.customer_app)

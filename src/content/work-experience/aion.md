@@ -18,3 +18,5 @@ This was an intership for a startup of a college senior. We were a team of 10 in
 ### What did we build?
 
 A collection of apps for a restaurant management system.
+
+[<img title="View On Playstore" src="/images/playstore.png" height="100px" width="100px"/>](https://play.google.com/store/apps/details?id=in.mayflowerrestaurant.customer)

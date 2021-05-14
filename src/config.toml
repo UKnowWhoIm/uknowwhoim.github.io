@@ -49,3 +49,8 @@ url = "about/"
 name = "Work Experience"
 weight = 4
 url = "work-experience/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
