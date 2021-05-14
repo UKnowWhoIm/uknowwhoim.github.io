@@ -17,3 +17,5 @@ This was a voluntary project for Kottayam District Collectorate for managing the
 ### What did we build?
 
 An API for COVID-19 District Management, including Hospital allocation, Ambulance allocation, Storing Patient Data, etc.
+
+[<img src="/images/github.png" title="View on Github"/>](https://github.com/Pradesh-Raksha-Kottayam)
