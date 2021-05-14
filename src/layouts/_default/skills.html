@@ -1,0 +1,36 @@
+{{ define "title" }}
+  {{- if eq .Kind "term" -}}
+    {{- i18n .Data.Singular | title -}}
+    {{- print ": " -}}
+  {{- end -}}
+
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+    <section id="skills-content">
+        <h3>Frontend Web/App Development</h3>
+            <div class="skills-images">
+                <img title="HTML" src="/images/html.webp" alt="html"/>
+                <img title="Svelte" src="/images/svelte.png" alt="svelte"/>
+                <img title="Flutter" src="/images/flutter.png" alt="flutter"/>
+            </div>
+        <h3>Backend Web Development</h3>
+            <div class="skills-images">
+                <img title="Django" src="/images/django.png" alt="django"/>
+                <img title="FastAPI" src="/images/fastAPI.png" alt="FastAPI"/>
+                <img title="NodeJS(Express)" src="/images/node.png" alt="Node"/>
+            </div>
+        <h3>Scripting</h3>
+            <div class="skills-images">
+                <img title="Python" src="/images/python.png" alt="Python"/>
+                <img title="NodeJS" src="/images/node.png" alt="Node"/>
+                <img title="Bash" src="/images/bash.png" alt="Bash"/>
+            </div>
+        <h3>DevOps</h3>
+            <div class="skills-images">
+                <img title="Docker" src="/images/docker.png" style="width: 140px;" alt="Docker"/>
+                <img title="Git" src="/images/git.png" alt="Git"/>
+                <img title="Github Actions" src="/images/actions.png" alt="Github Actions"/>
+            </div>
+    </section>
+{{ end }}
