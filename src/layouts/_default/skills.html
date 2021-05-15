@@ -8,29 +8,36 @@
 {{ end }}
 {{ define "content" }}
     <section id="skills-content">
-        <h3>Frontend Web/App Development</h3>
-            <div class="skills-images">
-                <img title="Hugo" src="/images/hugo.png" alt="Hugo"/>
-                <img title="Svelte" src="/images/svelte.png" alt="svelte"/>
-                <img title="Flutter" src="/images/flutter.png" alt="flutter"/>
-            </div>
-        <h3>Backend Web Development</h3>
-            <div class="skills-images">
+        <div id="skill-headings">
+            <span><i class="fa fa-angle-left" style="font-size: 32px;" onclick="changeSkill(-1);"></i></span>
+            <span id="backend" class="skill-heading disabled">Backend</span>
+            <span id="frontend" class="skill-heading disabled">Frontend</span>
+            <span id="scripting" class="skill-heading disabled">Scripting</span>
+            <span id="devops" class="skill-heading disabled">DevOps</span>
+            <span><i class="fa fa-angle-right" style="font-size: 32px;" onclick="changeSkill(1);"></i></span>
+        </div>
+        <div id="skill-images">
+            <div id="backend-skills" class="skills-images disabled">
                 <img title="Django" src="/images/django.png" alt="django"/>
                 <img title="FastAPI" src="/images/fastAPI.png" alt="FastAPI"/>
                 <img title="NodeJS(Express)" src="/images/node.png" alt="Node"/>
             </div>
-        <h3>Scripting</h3>
-            <div class="skills-images">
+            <div>
+                <div id="frontend-skills" class="skills-images disabled">
+                <img title="Hugo" src="/images/hugo.png" alt="Hugo"/>
+                <img title="Svelte" src="/images/svelte.png" alt="svelte"/>
+                <img title="Flutter" src="/images/flutter.png" alt="flutter"/>
+            </div>
+            <div id="scripting-skills" class="skills-images disabled">
                 <img title="Python" src="/images/python.png" alt="Python"/>
                 <img title="NodeJS" src="/images/node.png" alt="Node"/>
                 <img title="Bash" src="/images/bash.png" alt="Bash"/>
             </div>
-        <h3>DevOps</h3>
-            <div class="skills-images">
+            <div id="devops-skills" class="skills-images disabled">
                 <img title="Docker" src="/images/docker.png" style="width: 140px;" alt="Docker"/>
                 <img title="Git" src="/images/git.png" alt="Git"/>
                 <img title="Github Actions" src="/images/actions.png" alt="Github Actions"/>
             </div>
+        </div>
     </section>
 {{ end }}

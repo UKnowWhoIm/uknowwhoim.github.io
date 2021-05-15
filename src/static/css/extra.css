@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 .post-desc{
     text-align: left;
 }
@@ -28,11 +34,42 @@
     margin-right: 20px;
 }
 
+.disabled{
+    display: none;
+}
+
 .skills-images{
     padding: 10px;
 }
 
 #skills-content{
     flex: 10;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+#skill-headings{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#skill-headings i{
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+#skill-images{
+    flex: 2;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.skill-heading{
+    font-size: 48px;
+    padding: 5px;
 }

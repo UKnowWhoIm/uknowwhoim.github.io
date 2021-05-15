@@ -13,6 +13,7 @@ colorScheme = "dark"
 favicon_32 = "/img/favicon-32x32.png"
 favicon_16 = "/img/favicon-16x16.png"
 customCSS = ["css/extra.css"]
+customJS = ["js/script.js"]
 
 hideFooter = false
 hideCredits = false
