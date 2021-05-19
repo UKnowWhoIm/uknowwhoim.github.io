@@ -18,3 +18,9 @@ When I reached college, I restarted the developer in me with the help of some aw
 ### What do I bring to the table
 
 I'm natuarally curious, and a quick learner. I also bring along my passion for coding, that drives me to extreme lengths like an adrenaline rush until the job is done.
+
+### Education
+
+<i class="fa fa-graduation-cap"></i> B.Tech In Computer Science @ [RIT](http://rit.ac.in/) - 2019 – Present
+
+<i class="fa fa-graduation-cap"></i> High School @ [Bhavan's Newsprint Vidyalaya](https://www.bhavansvelloor.ac.in/) - 2019
