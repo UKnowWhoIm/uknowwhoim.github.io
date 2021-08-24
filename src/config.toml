@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 [params]
 author = "Sidharth Ajithkumar"
-info = "Web Developer"
+info = "Software Engineer | Web Developer"
 description = "My personal website"
 keywords = "developer,personal"
 #avatarurl = "images/avatar.jpg"
